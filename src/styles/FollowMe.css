@@ -1,0 +1,174 @@
+.FollowMe{
+  margin-bottom: 10rem;
+}
+
+.FollowMe_heading {
+  font-size: 70px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.FollowMe_col_2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.FollowMe_social_links_parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 50%;
+  place-content: center;
+  place-items: center;
+  gap: 2rem;
+}
+
+.FollowMe_social_links_parent a {
+  width: 80px;
+  animation: float 3s ease-in-out infinite;
+  filter: drop-shadow(.5px .5px 8px #27d0ed)
+}
+
+.FollowMe_social_links_parent a:nth-child(1){
+  filter: drop-shadow(.5px .5px 8px #ffffff)
+}
+
+.FollowMe_social_links_parent a:nth-child(2){
+  animation-delay: 2s;
+  filter: drop-shadow(.5px .5px 8px #66ff00)
+}
+
+.FollowMe_social_links_parent a:nth-child(4){
+  animation-delay: 2s;
+  filter: drop-shadow(2px 2px 8px #000000)
+}
+
+.FollowMe_social_links_parent a:nth-child(5){
+  filter: drop-shadow(.5px .5px 8px #ed27cc)
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-30px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.FollowMe_me_image {
+  width: 35%;
+  margin-left: 3rem;
+}
+
+.FollowMe_card {
+  overflow: visible;
+  position: relative;
+  width: 260px;
+  height: 390px;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.FollowMe_card:before,
+.FollowMe_card:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background: #fff;
+  transition: 0.5s;
+  z-index: -99;
+}
+
+.FollowMe_details {
+  position: absolute;
+  left: -10px;
+  right: 0;
+  bottom: 10px;
+  height: 90px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*Image*/
+.FollowMe_imgbox {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: #222;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.FollowMe_img {
+  background: linear-gradient(45deg, #4158d0, #c850c0);
+  background-image: url("../images/ryan\ favour\ purple\ bg.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*Text*/
+.FollowMe_title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #777;
+}
+
+.FollowMe_caption {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--primary-color);
+  display: block;
+  margin-top: 5px;
+}
+
+/*Hover*/
+.FollowMe_card:hover .FollowMe_imgbox {
+  bottom: 110px;
+}
+
+.FollowMe_card:hover:before {
+  transform: rotate(20deg);
+}
+
+.FollowMe_card:hover:after {
+  transform: rotate(10deg);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+  .FollowMe_col_2 {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 5rem 0;
+  }
+
+  .FollowMe_social_links_parent {
+    width: 100%;
+  }
+
+  .FollowMe_me_image {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .FollowMe_me_image > div{
+    margin:auto;
+  }
+}

@@ -1,0 +1,82 @@
+[
+    {
+        "className":"js",
+        "Language":"JavaScript"
+    },
+    {
+        "className":"ts",
+        "Language":"TypeScript"
+    },
+    {
+        "className":"react",
+        "Language":"React JS"
+    },
+    {
+        "className":"redux",
+        "Language":"Redux"
+    },
+    {
+        "className":"html",
+        "Language":"HTML"
+    },
+    {
+        "className":"css",
+        "Language":"CSS"
+    },
+    {
+        "className":"scss",
+        "Language":"SASS"
+    },
+    {
+        "className":"bootstrap",
+        "Language":"Bootstrap"
+    },
+    {
+        "className":"threejs",
+        "Language":"Three JS"
+    },
+    {
+        "className":"figma",
+        "Language":"Figma"
+    },
+    {
+        "className":"firebase",
+        "Language":"Firebase"
+    },
+    {
+        "className":"github",
+        "Language":"Github"
+    },
+    {
+        "className":"mobx",
+        "Language":"MobX"
+    },
+    {
+        "className":"wordpress",
+        "Language":"WordPress"
+    },
+    {
+        "className":"express",
+        "Language":"Express JS"
+    },
+    {
+        "className":"next",
+        "Language":"NEXT JS"
+    },
+    {
+        "className":"postgres",
+        "Language":"PostgresSql"
+    },
+    {
+        "className":"mysql",
+        "Language":"My Sql"
+    },
+    {
+        "className":"aws",
+        "Language":"AWS"
+    },
+    {
+        "className":"canva",
+        "Language":"Canva"
+    }
+]

@@ -1,0 +1,49 @@
+.Footer{
+    background: var(--faded-purple-2);
+    padding-block: 2rem;
+}
+
+.Footer_flex_top, .Footer_flex_bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3.5rem;
+}
+
+.Footer_flex_bottom{
+    margin-bottom: 0;
+}
+
+.Footer_reachout_link p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-block: 1rem;
+}
+
+.Footer_reachout_link p img{
+    width: 18px;
+}
+
+.Footer_reachout_link p a{
+    color: var(--white);
+}
+.Footer_reachout_link p a:hover{
+    color: var(--text-gold);
+}
+
+.Footer_ryanfavour_logo{
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.Footer_supporters{
+    display: flex;
+    gap: 20px;
+}
+
+.Footer_supporters a{
+    margin-top: 1rem;
+   color: var(--text-gold);
+   font-weight: bold;
+}

@@ -1,0 +1,116 @@
+.HeroSection {
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+}
+
+.HeroSection_col_2 {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: space-between;
+}
+
+h1.HeroSection_title {
+  font-size: 70px;
+  max-width: 500px;
+  margin-block: 2.2rem;
+}
+
+.HeroSection_logo_name_flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-block: 2.2rem;
+}
+
+.HeroSection_arrow {
+  width: 1.5rem;
+  transform: rotate(90deg);
+}
+
+.HeroSection_name_gold {
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--color-gold);
+}
+
+.HeroSection_subtext {
+  font-size: 18px;
+  margin-block: 2.2rem;
+}
+
+.HeroSection_cta_btns{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.outline_btn{
+  background: transparent !important;
+  color: var(--color-gold) !important;
+  border: 2px inset var(--color-gold);
+}
+
+.HeroSection_3d_blobs {
+  width: 50%;
+  position: relative;
+}
+
+.HeroSection_3d_blobs .HeroSection_blob {
+  height: 100%;
+}
+
+.HeroSection_3d_blobs>img {
+  width: 19rem;
+  position: absolute;
+  bottom: 15%;
+  right: 25%;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-30px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+  .HeroSection_col_2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+  }
+
+  .HeroSection_3d_blobs {
+    width: 89%;
+    min-height: 700px;
+  }
+
+  .HeroSection_3d_blobs .HeroSection_blob {
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .HeroSection_3d_blobs canvas {
+    min-height: 450px;
+  }
+
+  .HeroSection_3d_blobs>img {
+    bottom: 25%;
+    right: 6%;
+  }
+
+}

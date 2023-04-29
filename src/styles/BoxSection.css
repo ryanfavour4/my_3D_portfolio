@@ -1,0 +1,55 @@
+.BoxSection {
+  margin-bottom: 10rem;
+}
+
+.BoxSection_col_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  height: 100%;
+}
+
+div.BoxSection_3d_box {
+  width: 80%;
+  min-height: 350px;
+}
+
+div.BoxSection_3d_box canvas {
+  width: 90%;
+  min-height: 350px;
+  padding: 10px;
+}
+
+.BoxSection_heading_text {
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.BoxSection_subhead_text {
+  font-size: 18px;
+  margin-block: 2rem 3rem;
+}
+
+.gold_button {
+  background-color: var(--color-gold);
+  color: var(--color-oxford-blue);
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 9px 19px;
+  font-size: 17px;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+    .BoxSection_col_2{
+       flex-direction: column-reverse;
+       gap: 5rem;
+    }
+}  

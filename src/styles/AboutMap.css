@@ -1,0 +1,60 @@
+.AboutMap{
+    margin-bottom: 9rem;
+}
+
+.AboutMap_heading {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.AboutMap_desc{
+    font-size: 18px;
+    width: 50%;
+    margin-top: 2rem;
+    line-height: 200%;
+}
+
+.AboutMap_flex_col2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.AboutMap_about_text{
+    width: 50%;
+}
+
+.AboutMap_about_text > div{
+    padding-left: 5rem;
+}
+
+.AboutMap_map_box{
+    width: 100%;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+    .AboutMap_flex_col2{
+       flex-direction: column;
+       gap: 5rem;
+    }
+
+    .AboutMap_about_text > div{
+        padding-left: 0;
+    }
+
+    .AboutMap_about_text{
+        width: 100%;
+    }
+
+    .AboutMap_desc{
+        font-size: 18px;
+        width: 100%;
+        margin-top: 2rem;
+        line-height: 200%;
+    }
+    
+}  

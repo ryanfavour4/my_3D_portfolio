@@ -1,0 +1,156 @@
+/*//? ===== NAV BAR STYLE ====== */
+
+.Navbar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Navbar > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+  }
+  
+  .Navbar_links {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .Navbar_logo {
+    height: 2.5em;
+    filter: drop-shadow(.5px .5px 8px var(--text-white));
+  }
+  
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .navbar_ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+  }
+  
+  .Navbar_link {
+    cursor: pointer;
+  }
+  
+  .navbar_links {
+    color: var(--text-white);
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+
+  .navbar_links:hover {
+    color: var(--color-gold);
+  }
+  
+  a.hire_btn {
+    background-color: var(--color-gold);
+    color: var(--color-oxford-blue);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 9px 19px;
+    font-size: 17px;
+  }
+  
+  .first_hire_btn{
+    display: none;
+  }
+  
+  .Navbar_menu {
+    height: 2.5em;
+    display: none;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  /* MEDIA QUERY */
+  
+  @media only screen and (max-width: 768px) {
+    .Navbar {
+      width: 100%;
+    }
+  
+    .Navbar > div {
+      padding: 10px;
+    }
+  
+    .navbar_ul {
+      position: fixed;
+      background: var(--faded-purple-7);
+      z-index: 999;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      min-height: 300px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s transform ease-in-out;
+      transform: translateY(0%);
+    }
+  
+    .navbar_ul > button {
+      display: block;
+    }
+  
+    .sink_up {
+      transform: translateY(-100%);
+    }
+  
+    .first_hire_btn{
+      display: block;
+    }
+  
+    .second_hire_btn{
+      display: none;
+    }
+  
+    .Navbar_menu {
+        display: block;
+    }
+    
+  }
+  

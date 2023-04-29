@@ -1,0 +1,53 @@
+.Cards_card {
+  width: 200%;
+  min-width: 376px;
+  cursor: pointer;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.Cards_content {
+  text-align: center;
+  position: relative;
+  transition: all 2.25s;
+  background-color: var(--faded-purple-7);
+  padding: 5em;
+  padding-bottom: 8em;
+  transform-style: preserve-3d;
+  width: 100%;
+}
+
+.Cards_card:hover .Cards_content {
+  transform: rotateY(0.5turn);
+}
+
+.Cards_front,
+.Cards_back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 2em;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.Cards_title {
+  transform: translateZ(5rem);
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+.Cards_subtitle {
+  transform: translateZ(2rem);
+}
+
+.Cards_back {
+  transform: rotateY(0.5turn);
+  background-color: #732275;
+}
+
+.Cards_description {
+  transform: translateZ(3rem);
+}
