@@ -4,7 +4,7 @@ import arrowLogo from "../images/logo.png";
 import fluffPumpkin from "../images/3d-fluff-pumpkin.png";
 import Scene from "../mocks/Scene";
 import BlobGeometry from "../mocks/Blob";
-
+import cv from "../doc/ChukwukaFavourResume.pdf";
 
 function HeroSection() {
   return (
@@ -21,21 +21,21 @@ function HeroSection() {
               Transforming Your Vision into a Stunning Website.
             </p>
             <div className="HeroSection_cta_btns">
-            <a className="hire_btn" href="tel:+2349022698402">
-              Call Now
-            </a>
-            <a className="hire_btn outline_btn" download={"../doc/ChukwukaFavourResume.pdf"} href="../doc/ChukwukaFavourResume.pdf">
-              Download CV
-            </a>
+              <a className="hire_btn" href="tel:+2349022698402">
+                Call Now
+              </a>
+              <a className="hire_btn outline_btn" href={cv} download>
+                Download CV
+              </a>
             </div>
           </div>
           <div className="HeroSection_3d_blobs">
-              <div className="HeroSection_blob">
-                  <Scene>
-                    <BlobGeometry />
-                  </Scene>
-              </div>
-          <img src={fluffPumpkin} alt="floating fluff pumpkin" />
+            <div className="HeroSection_blob">
+              <Scene>
+                <BlobGeometry />
+              </Scene>
+            </div>
+            <img src={fluffPumpkin} alt="floating fluff pumpkin" />
           </div>
         </div>
       </div>

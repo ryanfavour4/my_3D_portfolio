@@ -183,3 +183,15 @@
   background: url("../languages/svg/canva-original.svg");
   background-color: #fff;
 }
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+  .Skills_heading{
+    font-size: 50px;
+  }
+}

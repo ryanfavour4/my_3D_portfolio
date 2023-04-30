@@ -1,4 +1,4 @@
-.Projects{
+.Projects {
   margin-bottom: 10rem;
 }
 
@@ -7,7 +7,7 @@
   font-weight: 500;
   margin-bottom: 2rem;
 }
- 
+
 .Projects_subhead {
   font-size: 18px;
   max-width: 600px;
@@ -90,12 +90,14 @@
   border: 3px solid #cac26c;
 }
 
-
-
 /* MEDIA QUERIES */
 @media only screen and (max-width: 768px) {
-    .Projects_project_box {
-      width:87vw;
-      max-width: 450px;
-    }
-}  
+  .Projects_project_box {
+    width: 87vw;
+    max-width: 450px;
+  }
+
+  .Projects_head {
+    font-size: 50px;
+  }
+}

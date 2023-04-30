@@ -48,6 +48,10 @@ div.BoxSection_3d_box canvas {
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 768px) {
+    .BoxSection_heading_text{
+      font-size: 50px;
+    }
+
     .BoxSection_col_2{
        flex-direction: column-reverse;
        gap: 5rem;

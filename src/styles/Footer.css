@@ -1,49 +1,79 @@
-.Footer{
-    background: var(--faded-purple-2);
-    padding-block: 2rem;
+.Footer {
+  background: var(--faded-purple-2);
+  padding-block: 2rem;
 }
 
-.Footer_flex_top, .Footer_flex_bottom{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 3.5rem;
+.Footer_flex_top,
+.Footer_flex_bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3.5rem;
 }
 
-.Footer_flex_bottom{
-    margin-bottom: 0;
+.Footer_flex_bottom {
+  margin-bottom: 0;
 }
 
-.Footer_reachout_link p{
-    display: flex;
+.Footer_reachout_link p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-block: 1rem;
+}
+
+.Footer_reachout_link p img {
+  width: 18px;
+}
+
+.Footer_reachout_link p a {
+  color: var(--white);
+}
+.Footer_reachout_link p a:hover {
+  color: var(--text-gold);
+}
+
+.Footer_ryanfavour_logo {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.Footer_ryanfavour_logo img {
+  margin: auto;
+  width: 50%;
+}
+
+.Footer_supporters {
+  display: flex;
+  gap: 20px;
+}
+
+.Footer_supporters a {
+  margin-top: 1rem;
+  color: var(--text-gold);
+  font-weight: bold;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+  .Footer_flex_top,
+  .Footer_flex_bottom {
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
-    margin-block: 1rem;
-}
+  }
 
-.Footer_reachout_link p img{
-    width: 18px;
-}
-
-.Footer_reachout_link p a{
-    color: var(--white);
-}
-.Footer_reachout_link p a:hover{
-    color: var(--text-gold);
-}
-
-.Footer_ryanfavour_logo{
-    width: 400px;
-    display: flex;
-    align-items: center;
-}
-
-.Footer_supporters{
-    display: flex;
-    gap: 20px;
-}
-
-.Footer_supporters a{
-    margin-top: 1rem;
-   color: var(--text-gold);
-   font-weight: bold;
+  .Footer_ryanfavour_logo {
+    width: 90%;
+    margin-block: 3rem;
+  }
+  
+  .Footer_ryanfavour_logo img {
+    width: 80%;
+  }
+  
+  .Footer_supporters {
+    margin-top: 1em;
+    margin-bottom: 4em;
+  }
 }

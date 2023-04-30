@@ -171,4 +171,9 @@
   .FollowMe_me_image > div{
     margin:auto;
   }
+
+  .FollowMe_heading{
+    font-size: 50px;
+  }
+
 }
