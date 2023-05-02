@@ -23,7 +23,7 @@ const Navbar = () => {
             onClick={() => setOpenSlide((openSlide) => !openSlide)}
           >
             <li className="Navbar_link">
-              <Link className="navbar_links" to="/hall">
+              <Link className="navbar_links" to="/document">
                 Documents
               </Link>
             </li>
@@ -33,7 +33,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="Navbar_link">
-              <Link className="navbar_links" to="/hall">
+              <Link className="navbar_links" to="/contact">
                 Contact
               </Link>
             </li>
