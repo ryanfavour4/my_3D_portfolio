@@ -110,6 +110,13 @@
   background-color: #33a9dc;
 }
 
+.tailwind {
+  background: url("../languages/svg/tailwind-original.svg");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .scss {
   background: url("../languages/svg/sass-original.svg");
   background-color: #fff;

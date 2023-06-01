@@ -24,6 +24,10 @@
         "Language":"CSS"
     },
     {
+        "className":"tailwind",
+        "Language":"Tailwind"
+    },
+    {
         "className":"scss",
         "Language":"SASS"
     },
