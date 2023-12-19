@@ -31,7 +31,9 @@ function BoxSection() {
                                 FRONT END DEVELOPER.
                             </span>
                         </p>
-                        {/* <Link to="/works" className="gold_button" >See Our Works</Link> */}
+                        <Link to="/contact" className="gold_button">
+                            Reach Out
+                        </Link>
                     </div>
                 </div>
             </div>
