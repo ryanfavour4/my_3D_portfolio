@@ -22,16 +22,16 @@ const Navbar = () => {
             className={`navbar_ul ${openSlide ? "sink_up" : ""}`}
             onClick={() => setOpenSlide((openSlide) => !openSlide)}
           >
-            <li className="Navbar_link">
+{/*             <li className="Navbar_link">
               <Link className="navbar_links" to="/document">
                 Documents
               </Link>
-            </li>
-            <li className="Navbar_link">
+            </li> */}
+{/*             <li className="Navbar_link">
               <Link className="navbar_links" to="/hall">
                 Works
               </Link>
-            </li>
+            </li> */}
             <li className="Navbar_link">
               <Link className="navbar_links" to="/contact">
                 Contact
