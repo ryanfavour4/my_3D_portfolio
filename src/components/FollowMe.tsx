@@ -42,7 +42,7 @@ const FollowMe = () => {
                 alt="social_link"
               />
             </a>
-            <a href="https://instagram.com/ryan_favour_frontend_tech" target="_blank" rel="noopener noreferrer">
+            <a href="https://instagram.com/ryanfavour4" target="_blank" rel="noopener noreferrer">
               <img
                 src={igLogo}
                 className="FollowMe_social_links"
