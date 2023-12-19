@@ -4,7 +4,7 @@ import arrowLogo from "../images/logo.png";
 import fluffPumpkin from "../images/3d-fluff-pumpkin.png";
 import Scene from "../mocks/Scene";
 import BlobGeometry from "../mocks/Blob";
-import cv from "../doc/ChukwukaFavourResume.pdf";
+import cv from "../doc/ryan-favour-cv.pdf";
 
 function HeroSection() {
   return (
