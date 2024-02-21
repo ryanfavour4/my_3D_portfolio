@@ -16,7 +16,7 @@ const Navbar = () => {
                             src={ryanfavour}
                             alt="ryanfavour logo"
                         />
-                        <span className="tooltiptext"> RYAN FAVOUR</span>
+                        <span className="tooltiptext">RYAN FAVOUR</span>
                     </Link>
                     <ul
                         className={`navbar_ul ${openSlide ? "sink_up" : ""}`}

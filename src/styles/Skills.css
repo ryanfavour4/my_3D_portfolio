@@ -1,204 +1,206 @@
-.Skills{
-  margin-bottom: 10rem;
+.Skills {
+    margin-bottom: 10rem;
 }
 
 .Skills_heading {
-  font-size: 70px;
-  font-weight: 500;
+    font-size: 70px;
+    font-weight: 500;
 }
 
 .whole_height {
-  height: 100vh;
-  display: flex;
-  max-height: 500px;
-  justify-content: space-between;
-  flex-direction: column;
-  flex-wrap: wrap;
-  overflow-y: hidden;
-  overflow-x: scroll;
+    height: 100vh;
+    display: flex;
+    max-height: 500px;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
 }
 
 .whole_height::-webkit-scrollbar {
-  background: var(--color-oxford-blue);
-  height: 10px;
-  border-radius: 30px;
+    background: var(--color-oxford-blue);
+    height: 10px;
+    border-radius: 30px;
 }
 
 .whole_height::-webkit-scrollbar-thumb {
-  background: var(--primary-color);
-  border-radius: 30px;
+    background: var(--primary-color);
+    border-radius: 30px;
 }
 
 .box {
-  position: relative;
-  min-height: 600px;
-  scale: 0.5;
-  width: 300px;
+    position: relative;
+    min-height: 600px;
+    scale: 0.5;
+    width: 300px;
 }
 
 .box > h1 {
-  color: white;
-  font-size: 2.5em;
+    color: white;
+    font-size: 2.5em;
 }
 
 .Skills_background_patch {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 300px;
-  height: 300px;
-  background-size: 100% 100%;
-  transform: translate(-50%, -50%) rotateX(45deg) rotateZ(-45deg);
-  transform-style: preserve-3d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    background-size: 100% 100%;
+    transform: translate(-50%, -50%) rotateX(45deg) rotateZ(-45deg);
+    transform-style: preserve-3d;
 }
 
 .Skills_background_patch:before {
-  content: "";
-  width: 100%;
-  height: 50px;
-  position: absolute;
-  bottom: -50px;
-  left: 0;
-  background: #2c2c2c;
-  transform-origin: top;
-  transform: skewX(-45deg) scale(1);
-  transition: 0.5s;
+    content: "";
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    background: #2c2c2c;
+    transform-origin: top;
+    transform: skewX(-45deg) scale(1);
+    transition: 0.5s;
 }
 
 .Skills_background_patch:after {
-  content: "";
-  width: 50px;
-  height: 100%;
-  position: absolute;
-  top: 50px;
-  left: -50px;
-  background: #101010;
-  transform-origin: left;
-  transform: skewY(-45deg) scale(1);
-  transition: 0.5s;
+    content: "";
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    top: 50px;
+    left: -50px;
+    background: #101010;
+    transform-origin: left;
+    transform: skewY(-45deg) scale(1);
+    transition: 0.5s;
 }
 
 /* LANGUAGES */
 
 .js {
-  background: url("../languages/svg/javascript-original.svg");
-  background-color: #f0db4f;
+    background: url("../languages/svg/javascript-original.svg");
+    background-color: #f0db4f;
 }
 
 .ts {
-  background: url("../languages/svg/typescript-original.svg");
-  background-color: #007acc;
+    background: url("../languages/svg/typescript-original.svg");
+    background-color: #007acc;
 }
 
 .react {
-  background: url("../languages/svg/react-original.svg");
-  background-color: #fff;
+    background: url("../languages/svg/react-original.svg");
+    background-color: #fff;
+}
+
+.angular {
+    background: url("../languages/svg/angular17-original.svg");
+    background-color: #170913;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .redux {
-  background: url("../languages/svg/redux-original.svg");
-  background-color: #fff;
+    background: url("../languages/svg/redux-original.svg");
+    background-color: #fff;
 }
 
 .html {
-  background: url("../languages/svg/html5-original.svg");
-  background-color: #f16529;
+    background: url("../languages/svg/html5-original.svg");
+    background-color: #f16529;
 }
 
 .css {
-  background: url("../languages/svg/css3-original.svg");
-  background-color: #33a9dc;
+    background: url("../languages/svg/css3-original.svg");
+    background-color: #33a9dc;
 }
 
 .tailwind {
-  background: url("../languages/svg/tailwind-original.svg");
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background: url("../languages/svg/tailwind-original.svg");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .scss {
-  background: url("../languages/svg/sass-original.svg");
-  background-color: #fff;
+    background: url("../languages/svg/sass-original.svg");
+    background-color: #fff;
 }
 
 .bootstrap {
-  background: url("../languages/svg/bootstrap-original.svg");
-  background-color: #7511f780;
+    background: url("../languages/svg/bootstrap-original.svg");
+    background-color: #7511f780;
 }
 
 .threejs {
-  background: url("../languages/svg/threejs-original.svg");
-  background-color: #fff;
+    background: url("../languages/svg/threejs-original.svg");
+    background-color: #fff;
 }
 
 .figma {
-  background: url("../languages/svg/figma-original.svg");
-  background-color: #2f4059;
+    background: url("../languages/svg/figma-original.svg");
+    background-color: #2f4059;
 }
 
 .firebase {
-  background: url("../languages/svg/firebase-plain.svg");
-  background-color: #fff;
+    background: url("../languages/svg/firebase-plain.svg");
+    background-color: #fff;
 }
 
 .github {
-  background: url("../languages/svg/github-original.svg");
-  background-color: #fff;
+    background: url("../languages/svg/github-original.svg");
+    background-color: #fff;
 }
 
 .mobx {
-  background: url("../languages/svg/mobx-original.svg");
-  background-color: #ea6618;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+    background: url("../languages/svg/mobx-original.svg");
+    background-color: #ea6618;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .wordpress {
-  background: url("../languages/svg/wordpress-plain.svg");
-  background-blend-mode: color-dodge;
-  background-color: #0284ac;
+    background: url("../languages/svg/wordpress-plain.svg");
+    background-blend-mode: color-dodge;
+    background-color: #0284ac;
 }
 
 .express {
-  background: url("../languages/svg/express-original-wordmark.svg");
-  background-color: #e2e2e2;
+    background: url("../languages/svg/express-original-wordmark.svg");
+    background-color: #e2e2e2;
 }
 
 .next {
-  background: url("../languages/svg/nextjs-original.svg");
-  background-color: #fff;
+    background: url("../languages/svg/nextjs-original.svg");
+    background-color: #fff;
 }
 
 .postgres {
-  background: url("../languages/svg/postgresql-original.svg");
-  background-color: #fff;
+    background: url("../languages/svg/postgresql-original.svg");
+    background-color: #fff;
 }
 
 .mysql {
-  background: url("../languages/svg/mysql-original-wordmark.svg");
-  background-color: #fff;
+    background: url("../languages/svg/mysql-original-wordmark.svg");
+    background-color: #fff;
 }
 
 .aws {
-  background: url("../languages/svg/amazonwebservices-original-wordmark.svg");
-  background-color: #fff;
+    background: url("../languages/svg/amazonwebservices-original-wordmark.svg");
+    background-color: #fff;
 }
 
 .canva {
-  background: url("../languages/svg/canva-original.svg");
-  background-color: #fff;
+    background: url("../languages/svg/canva-original.svg");
+    background-color: #fff;
 }
-
-
-
-
-
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 768px) {
-  .Skills_heading{
-    font-size: 50px;
-  }
+    .Skills_heading {
+        font-size: 50px;
+    }
 }

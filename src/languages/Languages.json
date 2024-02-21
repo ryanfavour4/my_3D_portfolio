@@ -1,86 +1,90 @@
 [
     {
-        "className":"js",
-        "Language":"JavaScript"
+        "className": "js",
+        "Language": "JavaScript"
     },
     {
-        "className":"ts",
-        "Language":"TypeScript"
+        "className": "ts",
+        "Language": "TypeScript"
     },
     {
-        "className":"react",
-        "Language":"React JS"
+        "className": "react",
+        "Language": "React"
     },
     {
-        "className":"redux",
-        "Language":"Redux"
+        "className": "angular",
+        "Language": "Angular"
     },
     {
-        "className":"html",
-        "Language":"HTML"
+        "className": "redux",
+        "Language": "Redux"
     },
     {
-        "className":"css",
-        "Language":"CSS"
+        "className": "html",
+        "Language": "HTML"
     },
     {
-        "className":"tailwind",
-        "Language":"Tailwind"
+        "className": "css",
+        "Language": "CSS"
     },
     {
-        "className":"scss",
-        "Language":"SASS"
+        "className": "tailwind",
+        "Language": "Tailwind"
     },
     {
-        "className":"bootstrap",
-        "Language":"Bootstrap"
+        "className": "scss",
+        "Language": "SASS"
     },
     {
-        "className":"threejs",
-        "Language":"Three JS"
+        "className": "bootstrap",
+        "Language": "Bootstrap"
     },
     {
-        "className":"figma",
-        "Language":"Figma"
+        "className": "threejs",
+        "Language": "Three JS"
     },
     {
-        "className":"firebase",
-        "Language":"Firebase"
+        "className": "figma",
+        "Language": "Figma"
     },
     {
-        "className":"github",
-        "Language":"Github"
+        "className": "firebase",
+        "Language": "Firebase"
     },
     {
-        "className":"mobx",
-        "Language":"MobX"
+        "className": "github",
+        "Language": "Github"
     },
     {
-        "className":"wordpress",
-        "Language":"WordPress"
+        "className": "mobx",
+        "Language": "MobX"
     },
     {
-        "className":"express",
-        "Language":"Express JS"
+        "className": "wordpress",
+        "Language": "WordPress"
     },
     {
-        "className":"next",
-        "Language":"NEXT JS"
+        "className": "express",
+        "Language": "Express JS"
     },
     {
-        "className":"postgres",
-        "Language":"PostgresSql"
+        "className": "next",
+        "Language": "NEXT JS"
     },
     {
-        "className":"mysql",
-        "Language":"My Sql"
+        "className": "postgres",
+        "Language": "PostgresSql"
     },
     {
-        "className":"aws",
-        "Language":"AWS"
+        "className": "mysql",
+        "Language": "My Sql"
     },
     {
-        "className":"canva",
-        "Language":"Canva"
+        "className": "aws",
+        "Language": "AWS"
+    },
+    {
+        "className": "canva",
+        "Language": "Canva"
     }
 ]

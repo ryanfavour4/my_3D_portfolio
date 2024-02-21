@@ -41,7 +41,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <p className="Footer_ryanfavour_logo">
-                        © 2023 RyanFavour. All rights reserved
+                        © 2024 RyanFavour. All rights reserved
                     </p>
                 </div>
             </div>
